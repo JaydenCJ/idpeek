@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="720" height="400" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="360" y="27" fill="#8b949e" text-anchor="middle" font-size="12">idpeek — when was this ID created?</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> idpeek 017f22e2-79b0-7cc3-98c4-dc0c0c07398f</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">kind</tspan>         uuid</text>
+    <text x="24" y="114"><tspan fill="#79c0ff">timestamp</tspan>    <tspan fill="#f778ba">2022-02-22T19:22:22.000Z</tspan>  <tspan fill="#8b949e">(unix_ms 1645557742000)</tspan></text>
+    <text x="24" y="136"><tspan fill="#79c0ff">version</tspan>      7  <tspan fill="#8b949e">(Unix-epoch time-based)</tspan></text>
+    <text x="24" y="158"><tspan fill="#79c0ff">rand_a</tspan>       0xcc3  <tspan fill="#8b949e">(12 bits, often sub-ms counter)</tspan></text>
+    <text x="24" y="180"><tspan fill="#79c0ff">as ULID</tspan>      <tspan fill="#d2a8ff">01FWHE4YDGFK1SHH6W1G60EECF</tspan>  <tspan fill="#8b949e">(same 128 bits)</tspan></text>
+    <text x="24" y="220"><tspan fill="#7ee787">$</tspan> idpeek time --epoch discord 175928847299117063</text>
+    <text x="24" y="242"><tspan fill="#f778ba">2016-04-30T11:18:25.796Z</tspan></text>
+    <text x="24" y="282"><tspan fill="#7ee787">$</tspan> idpeek 1541815603606036480</text>
+    <text x="24" y="304"><tspan fill="#79c0ff">kind</tspan>            snowflake   <tspan fill="#79c0ff">worker</tspan> 26  <tspan fill="#79c0ff">sequence</tspan> 0</text>
+    <text x="24" y="326"><tspan fill="#79c0ff">time@twitter</tspan>    <tspan fill="#f778ba">2022-06-28T16:07:40.105Z</tspan>  <tspan fill="#7ee787">(plausible)</tspan></text>
+    <text x="24" y="348"><tspan fill="#79c0ff">time@unix</tspan>       1981-08-25T14:24:45.448Z  <tspan fill="#8b949e">(implausible)</tspan></text>
+    <text x="24" y="378"><tspan fill="#79c0ff">as hex</tspan>          0x1565a11f6217a000</text>
+  </g>
+</svg>
